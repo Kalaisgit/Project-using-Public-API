@@ -29,10 +29,12 @@ In the terminal of your VScode, type,
 
 4) Open package.json and make sure that "type" : "module", is present, if not then, type it below "main" : "index.js".
 
-5) To enable server locally, either follow step 1 or step 2, 
+5) To enable server locally, either follow step a or step b,
+   
  a) Now we will enable our server to listen in port number 3000, and to do that,
  In your terminal, type,
  "node index.js" and  hit Enter. (Preferred)
+
  b) If you have nodemon installed, then nodemon index.js and hit Enter.
 
  This makes your server listen in port 3000.
