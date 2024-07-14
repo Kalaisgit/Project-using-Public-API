@@ -1,0 +1,44 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ffdb00, #ee4e4e, #4535c1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heading {
+  color: #fdffd2;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  font-family: "serif";
+  margin-bottom: 30px;
+}
+
+.lead {
+  color: #fdffd2;
+  font-size: 2rem;
+  margin: 50px auto 0 auto;
+  font-family: "sans-serif";
+  margin-bottom: 30px;
+}
+
+.Formheading {
+  color: #e68369;
+  font-family: sans-serif;
+}
+
+h3,
+h4 {
+  color: bisque;
+  font-family: serif;
+}
